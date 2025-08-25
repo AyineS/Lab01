@@ -11,25 +11,25 @@
 
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
-| help    | man         |        |
-| Get-Location | pwd    |        |
-| Get-ChildItem | ls    |        |
-| mkdir   | mkdir       |        |
-| Set-Location | cd     |        |
-| New-Item | touch      |        |
-| Move-Item | mv        |        |
-| Copy-Item | cp        |        |
-| Remove-Item | rm      |        |
-| notepad.exe | vim     |        |
+| help    | man         | command which can be used to learn how specific commands work/behave  |
+| Get-Location | pwd    | display the path of your currect location       |
+| Get-ChildItem | ls    | list files and/or folders in a directory       |
+| mkdir   | mkdir       | create a new directory at the current location or a specific path       |
+| Set-Location | cd     | change the current location to a specific directory       |
+| New-Item | touch      | create a new file       |
+| Move-Item | mv        | move a file or a folder from one location to another      |
+| Copy-Item | cp        | copy a file or a folder from one location to another       |
+| Remove-Item | rm      | delete one or more items       |
+| notepad.exe | vim     | open the notepad       |
 
 ## Part 3 - Command Line Navigation
 
 My OS is:
 - [x] Windows
-- [] Linux
-- [] Mac
+- [ ] Linux
+- [ ] Mac
 
-My Command Line Shell is: 
+My Command Line Shell is: Windows Powershell
 
 ### Navigating My OS on the Command Line
 
