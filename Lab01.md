@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [AyineS's GitHub Profile](FIXTHISURL-https://github.com/AyineS)
+1. [AyineS's GitHub Profile](https://github.com/AyineS)
 
 ## Part 2 - Research
 
