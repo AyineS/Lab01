@@ -48,13 +48,14 @@ My Command Line Shell is: Windows Powershell
 You got this
 ```
 10. Make a copy of `test.txt` named `copy.txt` in `DirA`: Copy-Item text.txt copy.txt
-11. View the contents of `DirA`: Get-childItem
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+11. View the contents of `DirA`: Get-ChildItem
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: Copy-Item "C:\Users\Seniya\DirA\text.txt" "C:\Users\Seniya\Dir B\fodder.txt"
+13. Delete / remove both `fodder.txt` AND `Dir B`: Remove-Item "C:\Users\Seniya\Dir B" -Recurse
 
 ## Citations
 
-To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
+Source used for help with command 13 where **-Recurse** deletes not only the specified directory but also all its subdirectories and files recursively, without prompting for confirmation for each item.   
+(https://stackoverflow.com/questions/7909167/how-to-quietly-remove-a-directory-with-content-in-powershell)
 
 
 
